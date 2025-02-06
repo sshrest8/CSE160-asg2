@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- saved from url=(0062)https://rodger.global-linguist.com/webgl/ch02/HelloPoint1.html -->
+<html lang="en">
+  
+  <head>
+    <meta charset = "utf-8"/>
+    <title>Change a point Color</title>
+    <style>
+      body {
+            background-image: url('MCbackground.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            color: white;
+        }
+    </style>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <!-- <img src="mcpig.webp" alt="Shield" width="715"> -->
+    <p id="numdot"> XXX </p>
+    <p>
+
+    
+
+    <p>
+      TailSeg1 <input type="range" min="-45" max="45" value="0" class="slider" id="tailSlide1">
+      TailSeg2 <input type="range" min="-45" max="45" value="0" class="slider" id="tailSlide2">
+      TailSeg3 <input type="range" min="-45" max="45" value="0" class="slider" id="tailSlide3">
+
+    </p>
+    <p>
+      Head Angle <input type="range" min="-45" max="45" value="0" class="slider" id="headSlide">
+      Walk Animation:
+      <button type="button" id="animationWalkOnButton">ON</button>
+      <button type="button" id="animationWalkOffButton">OFF</button>
+      Speed <input type="range" min="1" max="100" value="0" class="slider" id="speedSlide">
+      
+    <p>
+      Camera Angle <input type="range" min="0" max="360" value="5" class="slider" id="angleSlide">
+      Hold down the mouse and drag to rotate the pig
+      <p>
+        Hold shift and mouseclick to feed him a carrot
+      <p>
+        The speed of his animation and the carrot eating speed and be adjust with the speed slider
+
+    <p>
+
+
+
+    <script src="./asg1_files/webgl-utils.js.download"></script>
+    <script src="./asg1_files/webgl-debug.js.download"></script>
+    <script src="./asg1_files/cuon-utils.js.download"></script>
+    <script src="./asg1_files/HelloPoint1.js.download"></script>
+    <script src="point.js"></script>
+    <script src="Triangle.js"></script>
+    <script src="Circle.js"></script>
+    <script src="BlockyAnimal.js"></script>
+    <script src="Cube.js"></script>
+    <script src="Cone.js"></script>
+    <script src="cuon-matrix-cse160.js"></script>
+  
+
+</body>
+</html>
